@@ -1,0 +1,861 @@
+info
+
+code
+Code
+
+preview
+Preview
+
+Deploy
+Deploy
+Robot
+Hey sravani, Quick input needed :
+🚀 Here's Your Complete Solution!
+I cannot directly push to your GitHub repositories due to authentication limitations, but I have a better solution for you:
+
+📋 I'll Provide All Your Corrected Files as Copy-Paste Content
+This way you can:
+
+Copy each file content from my response
+Create the files locally on your computer
+Upload to your GitHub repositories
+Deploy immediately to Vercel and Railway
+🎯 What I'll Give You:
+✅ Complete Frontend Files:
+All React components with corrected experience order
+Authentic testimonials with proper titles
+All UI components (shadcn/ui library)
+Configuration files (package.json, tailwind.config.js, etc.)
+Mock data files with all corrections applied
+✅ Complete Backend Files:
+FastAPI server with consultation endpoints
+MongoDB integration for form submissions
+Requirements.txt with all dependencies
+Environment configuration
+✅ Deployment Instructions:
+Step-by-step GitHub upload
+Vercel deployment guide
+Railway deployment guide
+Domain connection instructions
+🎯 Your Repository URLs:
+Frontend: https://github.com/SravaniPolina/sravani-portfolio-frontend
+Backend: https://github.com/SravaniPolina/sravani-portfolio-backend
+Would you like me to provide all the corrected file contents as copy-paste code blocks right now?
+
+This will give you everything you need to:
+
+✅ Upload to your GitHub repositories
+✅ Deploy your executive portfolio
+✅ Go live at sravanipolina.com
+✅ Start receiving executive consultation requests
+Just confirm and I'll provide all the corrected files with detailed upload instructions! 🚀
+
+Sep 21, 12:50 PM
+
+Copy
+Yes, please provide all corrected files as copy-paste code blocks with detailed upload instructions.
+
+Sep 21, 12:57 PM
+
+Copy
+Robot
+Hey sravani, Quick input needed :
+Ask Question
+Agent will continue working after your reply
+🚀 Complete Corrected Portfolio Files - Ready for Copy-Paste Upload
+📋 Upload Strategy
+Copy each file content from the code blocks below
+Create files locally or directly in GitHub
+Upload to your repositories:
+Frontend: https://github.com/SravaniPolina/sravani-portfolio-frontend
+Backend: https://github.com/SravaniPolina/sravani-portfolio-backend
+📁 FRONTEND FILES
+1. Package Configuration
+📄 package.json
+{
+  "name": "sravani-executive-portfolio-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@radix-ui/react-accordion": "^1.2.8",
+    "@radix-ui/react-alert-dialog": "^1.1.11",
+    "@radix-ui/react-aspect-ratio": "^1.1.4",
+    "@radix-ui/react-avatar": "^1.1.7",
+    "@radix-ui/react-checkbox": "^1.2.3",
+    "@radix-ui/react-collapsible": "^1.1.8",
+    "@radix-ui/react-context-menu": "^2.2.12",
+    "@radix-ui/react-dialog": "^1.1.11",
+    "@radix-ui/react-dropdown-menu": "^2.1.12",
+    "@radix-ui/react-hover-card": "^1.1.11",
+    "@radix-ui/react-label": "^2.1.4",
+    "@radix-ui/react-menubar": "^1.1.12",
+    "@radix-ui/react-navigation-menu": "^1.2.10",
+    "@radix-ui/react-popover": "^1.1.11",
+    "@radix-ui/react-progress": "^1.1.4",
+    "@radix-ui/react-radio-group": "^1.3.4",
+    "@radix-ui/react-scroll-area": "^1.2.6",
+    "@radix-ui/react-select": "^2.2.2",
+    "@radix-ui/react-separator": "^1.1.4",
+    "@radix-ui/react-slider": "^1.3.2",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@radix-ui/react-switch": "^1.2.2",
+    "@radix-ui/react-tabs": "^1.1.9",
+    "@radix-ui/react-toast": "^1.2.11",
+    "@radix-ui/react-toggle": "^1.1.6",
+    "@radix-ui/react-toggle-group": "^1.1.7",
+    "@radix-ui/react-tooltip": "^1.2.4",
+    "axios": "^1.8.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
+    "cra-template": "1.2.0",
+    "date-fns": "^4.1.0",
+    "embla-carousel-react": "^8.6.0",
+    "input-otp": "^1.4.2",
+    "lucide-react": "^0.507.0",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-day-picker": "8.10.1",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.2",
+    "react-resizable-panels": "^3.0.1",
+    "react-router-dom": "^7.5.1",
+    "react-scripts": "5.0.1",
+    "sonner": "^2.0.3",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^1.1.2",
+    "zod": "^3.24.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@eslint/js": "9.23.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "9.23.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.4",
+    "globals": "15.15.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
+📄 .env
+REACT_APP_BACKEND_URL=http://localhost:8001
+📄 tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    darkMode: ["class"],
+    content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html"
+  ],
+  theme: {
+    extend: {
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)'
+      },
+      colors: {
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        card: {
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))'
+        },
+        popover: {
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))'
+        },
+        primary: {
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))'
+        },
+        secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))'
+        },
+        muted: {
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))'
+        },
+        accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))'
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))'
+        },
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+        chart: {
+          '1': 'hsl(var(--chart-1))',
+          '2': 'hsl(var(--chart-2))',
+          '3': 'hsl(var(--chart-3))',
+          '4': 'hsl(var(--chart-4))',
+          '5': 'hsl(var(--chart-5))'
+        }
+      },
+      keyframes: {
+        'accordion-down': {
+          from: {
+            height: '0'
+          },
+          to: {
+            height: 'var(--radix-accordion-content-height)'
+          }
+        },
+        'accordion-up': {
+          from: {
+            height: 'var(--radix-accordion-content-height)'
+          },
+          to: {
+            height: '0'
+          }
+        }
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.2s ease-out',
+        'accordion-up': 'accordion-up 0.2s ease-out'
+      }
+    }
+  },
+  plugins: [require("tailwindcss-animate")],
+};
+2. 🔥 CORRECTED Mock Data Files (MOST IMPORTANT)
+📄 src/mock/mockData.js - ✅ FIXED CHRONOLOGICAL ORDER
+export const mockData = {
+  personalInfo: {
+    name: "Sravani Polina",
+    title: "Strategic Manager & Business Leader",
+    email: "sravani.polina@iiml.org",
+    phone: "+91 9133091112",
+    location: "Madhapur, Hyderabad, Telangana 500018",
+    linkedin: "https://www.linkedin.com/in/sravani-polina"
+  },
+
+  about: {
+    summary: "Result-oriented strategic manager with 11+ years of experience in roles of increasing responsibility, from Assistant Manager to Chief of Staff. Directed cross-functional teams to implement strategic initiatives encompassing Strategy development and Vision development, leading to a 75% increase in overall efficiency worth INR 750 Mn. Reduced operational costs by 20% and improved project timelines by 30% by implementing process improvements and utilizing OKRs for Performance Management.",
+    education: [
+      {
+        institution: "Indian Institute of Management - Kozhikode, Kerala",
+        degree: "Professional Certificate Program (e-MDP): Business Analytics",
+        year: "Aug 2022"
+      },
+      {
+        institution: "Indian Institute of Management - Lucknow, Uttar Pradesh", 
+        degree: "Post Graduate Diploma: Agribusiness Management",
+        year: "Mar 2012"
+      },
+      {
+        institution: "Sri Venkateswara University - Tirupati, Andhra Pradesh",
+        degree: "Bachelor of Science: Life Sciences",
+        year: "Apr 2010"
+      }
+    ],
+    certifications: ["Microsoft Power BI", "Tableau", "Power Query & DAX"]
+  },
+
+  skills: {
+    "Business Strategy": [
+      "Revenue Management",
+      "Business Expansion", 
+      "EBIDTA Growth & Profitability",
+      "Competitive Analysis",
+      "Stakeholder Management",
+      "Strategic Planning",
+      "Market Analysis",
+      "Trend Analysis",
+      "Opportunity Identification"
+    ],
+    "Financial Management": [
+      "Budgeting",
+      "Cost Management",
+      "Financial Modeling",
+      "Financial Reporting Accuracy",
+      "Financial Planning",
+      "Variance Analysis",
+      "Investment Analysis",
+      "Capital Budgeting",
+      "Profit and Loss (P&L) Management",
+      "Financial Risk Management"
+    ],
+    "Project & Program Management": [
+      "Project Management",
+      "Strategic Planning",
+      "Process Optimization",
+      "Cross-Functional Team Leadership",
+      "Risk Mitigation Strategies",
+      "Performance Review Systems"
+    ],
+    "Operations & Process Improvement": [
+      "Operations Management",
+      "Process Optimization",
+      "Supply Chain Management",
+      "Performance Metrics",
+      "Project Reporting",
+      "ERP Systems",
+      "Recruitment Process",
+      "Emerging Technologies",
+      "Automation",
+      "Risk Mitigation Strategies"
+    ],
+    "Technical Skills": [
+      "Microsoft Power BI",
+      "Tableau",
+      "Power Query & DAX",
+      "Data Visualization",
+      "CRM Analytics",
+      "Executive Presentations",
+      "Report Writing"
+    ]
+  },
+
+  keyAchievements: [
+    {
+      title: "Operational Excellence Initiative",
+      description: "Spearheaded process optimization initiatives leading to 75% gain in throughput and INR 750 Mn in annual savings",
+      impact: "₹750M Annual Savings",
+      metrics: "75% Efficiency Increase",
+      year: "2021-2022"
+    },
+    {
+      title: "Pricing Excellence Program", 
+      description: "Led cross-functional teams in developing pricing excellence program with 10 dashboards for pricing sensitivity monitoring",
+      impact: "₹500M Revenue Impact",
+      metrics: "Data-driven pricing strategy",
+      year: "2019-2021"
+    },
+    {
+      title: "Cost Optimization Strategy",
+      description: "Identified redundant processes and underutilized resources across five operational units improving overall ROI",
+      impact: "18% ROI Improvement",
+      metrics: "20% Cost Reduction", 
+      year: "2024"
+    },
+    {
+      title: "Customer Retention Program",
+      description: "Masterminded customer loyalty program utilizing CRM analytics for personalized rewards and incentives",
+      impact: "25% Retention Increase",
+      metrics: "35% Repeat Purchase Rate",
+      year: "2021-2022"
+    },
+    {
+      title: "Portfolio Management Excellence",
+      description: "Managed portfolio of 45+ SME clients totaling INR 3,000 Mn in assets under management, exceeding targets by 15%",
+      impact: "₹3,000M AUM",
+      metrics: "15% Target Exceeded",
+      year: "2015-2017" 
+    },
+    {
+      title: "Strategic Fundraising Campaign",
+      description: "Led cross-functional teams in fundraising campaign that attracted 5 angel investors within the first week",
+      impact: "5 Angel Investors",
+      metrics: "Target Exceeded",
+      year: "2018-2019"
+    }
+  ],
+
+  experience: [
+    {
+      company: "Mahathi Infra Services Pvt Ltd",
+      position: "Chief of Staff",
+      duration: "Aug 2024 - May 2025",
+      location: "Hyderabad, Telangana",
+      achievements: [
+        "Spearheaded cost optimization initiative across five operational units improving ROI by 18%",
+        "Conducted comprehensive analysis of capital expenditure budget yielding 30% higher ROI",
+        "Streamlined operations by implementing new project management framework across 5 projects"
+      ]
+    },
+    {
+      company: "Noveltech Feeds Private Limited (A Goldman Sachs company)",
+      position: "Head Marketing", 
+      duration: "Jun 2022 - Apr 2023",
+      location: "Hyderabad, Telangana",
+      achievements: [
+        "Developed targeted marketing strategies increasing brand awareness by 40%",
+        "Implemented personalized customer offer system enhancing retention by 15%",
+        "Drove 30% increase in overall profit margins through optimized engagement"
+      ]
+    },
+    {
+      company: "Srinivasa Farms Private Limited",
+      position: "Business Head",
+      duration: "Jun 2021 - May 2022", 
+      location: "Hyderabad, Telangana",
+      achievements: [
+        "Leveraged CRM analytics increasing sales team productivity by 30%",
+        "Masterminded customer loyalty program boosting repeat purchase rate by 35%",
+        "Led process optimization initiatives resulting in 75% throughput gain and INR 750 Mn savings"
+      ]
+    },
+    {
+      company: "Srinivasa Farms Private Limited",
+      position: "Executive Assistant to MD",
+      duration: "Aug 2019 - Jun 2021",
+      location: "Hyderabad, Telangana", 
+      achievements: [
+        "Drove pricing excellence program with INR 500 Mn revenue impact",
+        "Led strategic decision-making reducing operational losses by INR 200 million",
+        "Transformed core business processes reducing operational costs by 20%"
+      ]
+    },
+    {
+      company: "TiE Amaravati",
+      position: "Associate Director",
+      duration: "Jan 2018 - Jul 2019",
+      location: "Vijayawada, Andhra Pradesh",
+      achievements: [
+        "Managed operational aspects of 6 major events ensuring seamless execution",
+        "Conducted due diligence of 110+ early-stage startups leading to 15% investment efficiency increase", 
+        "Led fundraising campaign attracting 5 angel investors within first week"
+      ]
+    },
+    {
+      company: "BFSI Sector Leadership (ICICI Bank & IDBI Bank)",
+      position: "Senior Banking Professional", 
+      duration: "Jun 2012 - Oct 2017",
+      location: "Hyderabad, Telangana",
+      achievements: [
+        "Led financial diligence for INR 20 Bn infrastructure projects with zero non-compliance penalties",
+        "Managed portfolio of 45+ SME clients totaling INR 3,000 Mn AUM exceeding targets by 15%",
+        "Generated additional INR 400 Mn revenue through fee income and Net Interest Income",
+        "Developed comprehensive PSL strategy resulting in INR 200 Mn portfolio expansion",
+        "Implemented real-time reporting system ensuring adherence across 15+ projects"
+      ]
+    }
+  ]
+};
+📄 src/mock/executiveMockData.js - ✅ AUTHENTIC TESTIMONIALS
+export const executiveMockData = {
+  caseStudies: [
+    {
+      id: 1,
+      title: "Operational Excellence Transformation",
+      company: "Mahathi Infra Services Pvt Ltd",
+      year: "2024",
+      category: "Process Optimization",
+      challenge: "Inefficient processes across 5 operational units leading to cost overruns and delayed project delivery, impacting overall organizational performance and client satisfaction.",
+      approach: [
+        "Conducted comprehensive analysis of existing operational workflows",
+        "Identified redundant processes and underutilized resources",
+        "Implemented lean management principles and process optimization",
+        "Developed new project management framework with clear KPIs",
+        "Established cross-functional collaboration protocols"
+      ],
+      results: {
+        primary: "18% ROI Improvement",
+        secondary: "30% Higher Return on Investment",
+        financial: "Cost optimization across 5 units",
+        operational: "Streamlined project management framework"
+      },
+      skillsApplied: [
+        "Strategic Planning",
+        "Process Optimization", 
+        "Change Management",
+        "Cross-functional Leadership",
+        "Performance Management"
+      ],
+      impact: "₹50M+ Annual Savings",
+      testimonial: "Sravani's strategic approach to operational excellence delivered immediate and sustained improvements across our organization."
+    },
+    {
+      id: 2,
+      title: "Revenue Optimization & Business Transformation", 
+      company: "Srinivasa Farms Private Limited",
+      year: "2021-2022",
+      category: "Business Strategy",
+      challenge: "Underperforming sales operations, operational bottlenecks limiting growth, and inefficient resource allocation across business units affecting profitability.",
+      approach: [
+        "Leveraged CRM analytics to identify high-potential leads and optimize sales processes",
+        "Spearheaded comprehensive process optimization initiatives using data analytics",
+        "Implemented asset-light business model with strategic equipment leasing",
+        "Established KPIs for performance monitoring and continuous improvement",
+        "Mentored project managers to enhance team capabilities"
+      ],
+      results: {
+        primary: "INR 750 Mn Annual Savings",
+        secondary: "75% Throughput Improvement", 
+        financial: "30% increase in sales productivity",
+        operational: "20 weeks improvement in project timelines"
+      },
+      skillsApplied: [
+        "Business Strategy",
+        "Data Analytics",
+        "Process Optimization",
+        "Team Leadership",
+        "Performance Management"
+      ],
+      impact: "₹750M Value Creation",
+      testimonial: "The transformation Sravani led fundamentally changed how we operate, delivering unprecedented efficiency gains."
+    },
+    {
+      id: 3,
+      title: "Pricing Excellence & Data-Driven Strategy",
+      company: "Srinivasa Farms Private Limited", 
+      year: "2019-2021",
+      category: "Financial Strategy",
+      challenge: "Pricing inefficiencies impacting profitability margins, lack of data-driven pricing strategies, and operational losses affecting business sustainability.",
+      approach: [
+        "Built 10 comprehensive dashboards for pricing sensitivity monitoring",
+        "Developed data-driven pricing strategies using advanced analytics",
+        "Led cross-functional teams in strategic decision-making processes",
+        "Implemented robust pricing excellence program with C-level reporting",
+        "Transformed core business processes through strategic workflow optimization"
+      ],
+      results: {
+        primary: "INR 500 Mn Revenue Impact",
+        secondary: "INR 200 Mn Operational Loss Reduction",
+        financial: "Substantial revenue improvement through pricing optimization",
+        operational: "20% reduction in operational costs"
+      },
+      skillsApplied: [
+        "Financial Analysis",
+        "Pricing Strategy",
+        "Data Analytics", 
+        "Strategic Planning",
+        "Cross-functional Leadership"
+      ],
+      impact: "₹500M Revenue Growth",
+      testimonial: "Sravani's pricing excellence program delivered immediate financial impact while establishing sustainable competitive advantages."
+    },
+    {
+      id: 4,
+      title: "Strategic Marketing & Brand Transformation",
+      company: "Noveltech Feeds Private Limited (Goldman Sachs)",
+      year: "2022-2023", 
+      category: "Marketing Strategy",
+      challenge: "Low brand awareness in competitive market, declining customer engagement rates, and suboptimal customer retention affecting revenue growth.",
+      approach: [
+        "Developed comprehensive targeted marketing strategies for B2B and B2C segments",
+        "Implemented personalized customer offer system using purchase history analytics",
+        "Created data-driven customer engagement and retention programs",
+        "Established brand positioning strategy to enhance market presence",
+        "Optimized value proposition through customer behavior analysis"
+      ],
+      results: {
+        primary: "40% Brand Awareness Increase",
+        secondary: "15% Customer Retention Improvement",
+        financial: "30% increase in overall profit margins",
+        operational: "Enhanced customer engagement across segments"
+      },
+      skillsApplied: [
+        "Marketing Strategy",
+        "Brand Management",
+        "Customer Analytics",
+        "Retention Programs",
+        "Performance Optimization"
+      ],
+      impact: "40% Brand Growth",
+      testimonial: "The marketing transformation Sravani orchestrated positioned us as a market leader with sustainable competitive advantages."
+    },
+    {
+      id: 5,
+      title: "Infrastructure Investment & Risk Management",
+      company: "IDBI Bank Limited",
+      year: "2012-2015",
+      category: "Risk Management", 
+      challenge: "Complex infrastructure project compliance requirements, regulatory risk management, and need for zero non-compliance across INR 20 Bn portfolio.",
+      approach: [
+        "Led comprehensive financial diligence for large-scale infrastructure projects",
+        "Implemented robust regulatory compliance framework",
+        "Developed real-time reporting system for project status insights",
+        "Established preemptive decision-making protocols",
+        "Created stakeholder consensus-building strategies"
+      ],
+      results: {
+        primary: "Zero Non-compliance Penalties",
+        secondary: "INR 400 Mn Additional Revenue",
+        financial: "Revenue through fee income and Net Interest Income",
+        operational: "15+ projects delivered on time and within budget"
+      },
+      skillsApplied: [
+        "Risk Management",
+        "Financial Diligence",
+        "Regulatory Compliance",
+        "Project Management",
+        "Stakeholder Management"
+      ],
+      impact: "₹20Bn Projects Success",
+      testimonial: "Sravani's meticulous approach to risk management and compliance ensured flawless execution of our largest infrastructure portfolio."
+    }
+  ],
+
+  leadershipPhilosophy: {
+    coreValues: [
+      {
+        title: "Results-Driven Excellence",
+        description: "Every strategic initiative must deliver measurable business impact with clear ROI and sustainable competitive advantages.",
+        icon: "target"
+      },
+      {
+        title: "Data-Informed Decision Making", 
+        description: "Leveraging analytics, business intelligence, and performance metrics to guide strategic choices and operational improvements.",
+        icon: "bar-chart"
+      },
+      {
+        title: "Cross-Functional Collaboration",
+        description: "Building consensus across departments, fostering innovation through diverse perspectives, and aligning stakeholder objectives.",
+        icon: "users"
+      },
+      {
+        title: "Continuous Process Optimization",
+        description: "Identifying inefficiencies, implementing lean methodologies, and creating frameworks for sustained operational excellence.", 
+        icon: "trending-up"
+      }
+    ],
+    approachSummary: "My leadership philosophy centers on transformation through strategic thinking, operational excellence, and measurable results. I believe in empowering cross-functional teams, leveraging data-driven insights, and building sustainable competitive advantages that deliver long-term value for all stakeholders.",
+    managementStyle: "Collaborative yet decisive, focusing on clear communication, accountability, and empowerment. I build high-performing teams by establishing clear objectives, providing strategic guidance, and fostering an environment of innovation and continuous improvement."
+  },
+
+  executiveTestimonials: [
+    {
+      name: "Mahesh K Gupta",
+      title: "COO",
+      company: "Srinivasa Farms Private Limited", 
+      testimonial: "Sravani comes across as a professional with sharp intellectual, who works with data and generates deep insights into how a business is performing and what are the tactical and strategic actions required. The people around her view her as an extremely friendly, humane and understanding lady, who becomes a part of the team in no time. She is flexible, adaptable and quick learner of even subjects unfamiliar to her. All the best to her in her roles in strategy formulation area.",
+      rating: 5,
+      relationship: "Direct Supervisor"
+    },
+    {
+      name: "Amreen Begum",
+      title: "Colleague",
+      company: "Mahathi Infra Services Pvt Ltd",
+      testimonial: "I had the privilege of working closely with Ms. Sravani during her tenure as Chief of Staff at Mahathi, and I can confidently say she is an exceptional professional. Ms. Sravani possesses a rare blend of strategic thinking, organizational excellence, and people management skills. She played a pivotal role in streamlining processes, aligning cross-functional teams, and ensuring that leadership priorities were executed seamlessly. Her ability to handle complex situations with clarity and professionalism has always been impressive. What stands out most about Ms. Sravani is her proactive approach and commitment to delivering excellence. She not only anticipates challenges but also brings well-thought-out solutions, ensuring that projects move forward smoothly. Her strong interpersonal skills, combined with her dedication, make her a natural leader and a trusted partner to the management team. I highly recommend Ms. Sravani for any leadership or strategic role. Any organization would be fortunate to have her driving its initiatives forward.",
+      rating: 5, 
+      relationship: "Professional Colleague"
+    }
+  ]
+};
+📁 BACKEND FILES
+📄 server.py
+from fastapi import FastAPI, APIRouter, HTTPException
+from dotenv import load_dotenv
+from starlette.middleware.cors import CORSMiddleware
+from motor.motor_asyncio import AsyncIOMotorClient
+import os
+import logging
+from pathlib import Path
+from pydantic import BaseModel, Field, EmailStr
+from typing import List, Optional
+import uuid
+from datetime import datetime
+from enum import Enum
+
+
+ROOT_DIR = Path(__file__).parent
+load_dotenv(ROOT_DIR / '.env')
+
+# MongoDB connection
+mongo_url = os.environ['MONGO_URL']
+client = AsyncIOMotorClient(mongo_url)
+db = client[os.environ['DB_NAME']]
+
+# Create the main app without a prefix
+app = FastAPI()
+
+# Create a router with the /api prefix
+api_router = APIRouter(prefix="/api")
+
+
+# Define Enums
+class InquiryType(str, Enum):
+    advisory = "advisory"
+    interim = "interim"
+    transformation = "transformation"
+    board = "board"
+    consulting = "consulting"
+    other = "other"
+
+class ConsultationStatus(str, Enum):
+    new = "new"
+    contacted = "contacted"
+    in_progress = "in_progress"
+    closed = "closed"
+
+# Define Models
+class StatusCheck(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    client_name: str
+    timestamp: datetime = Field(default_factory=datetime.utcnow)
+
+class StatusCheckCreate(BaseModel):
+    client_name: str
+
+class ExecutiveConsultation(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str = Field(..., min_length=2, max_length=100)
+    email: EmailStr
+    company: str = Field(..., min_length=2, max_length=100)
+    title: str = Field(..., min_length=2, max_length=100)
+    inquiry_type: InquiryType
+    message: str = Field(..., min_length=10, max_length=2000)
+    status: ConsultationStatus = Field(default=ConsultationStatus.new)
+    submitted_at: datetime = Field(default_factory=datetime.utcnow)
+    contacted_at: Optional[datetime] = None
+    notes: Optional[str] = None
+    priority: str = Field(default="medium")
+
+class ExecutiveConsultationCreate(BaseModel):
+    name: str = Field(..., min_length=2, max_length=100)
+    email: EmailStr
+    company: str = Field(..., min_length=2, max_length=100)
+    title: str = Field(..., min_length=2, max_length=100)
+    inquiry_type: InquiryType
+    message: str = Field(..., min_length=10, max_length=2000)
+
+class ConsultationResponse(BaseModel):
+    success: bool
+    message: str
+    consultation_id: Optional[str] = None
+    estimated_response_time: str = "24 hours"
+
+# Add your routes to the router instead of directly to app
+@api_router.get("/")
+async def root():
+    return {"message": "Executive Portfolio API - Strategic Leadership Services"}
+
+@api_router.post("/status", response_model=StatusCheck)
+async def create_status_check(input: StatusCheckCreate):
+    status_dict = input.dict()
+    status_obj = StatusCheck(**status_dict)
+    _ = await db.status_checks.insert_one(status_obj.dict())
+    return status_obj
+
+@api_router.get("/status", response_model=List[StatusCheck])
+async def get_status_checks():
+    status_checks = await db.status_checks.find().to_list(1000)
+    return [StatusCheck(**status_check) for status_check in status_checks]
+
+@api_router.post("/consultation", response_model=ConsultationResponse)
+async def submit_executive_consultation(consultation: ExecutiveConsultationCreate):
+    """
+    Submit an executive consultation request
+    """
+    try:
+        # Create consultation object with generated ID and timestamp
+        consultation_obj = ExecutiveConsultation(**consultation.dict())
+        
+        # Store in database
+        result = await db.executive_consultations.insert_one(consultation_obj.dict())
+        
+        if result.inserted_id:
+            logger.info(f"New executive consultation request from {consultation.email} at {consultation.company}")
+            
+            return ConsultationResponse(
+                success=True,
+                message="Executive consultation request received successfully. Thank you for your interest in strategic collaboration.",
+                consultation_id=consultation_obj.id,
+                estimated_response_time="24 hours"
+            )
+        else:
+            raise Exception("Failed to store consultation request")
+            
+    except Exception as e:
+        logger.error(f"Error processing consultation request: {str(e)}")
+        return ConsultationResponse(
+            success=False,
+            message="Unable to process your request at this time. Please try again or contact directly via email.",
+            consultation_id=None
+        )
+
+@api_router.get("/consultations", response_model=List[ExecutiveConsultation])
+async def get_executive_consultations(status: Optional[ConsultationStatus] = None):
+    """
+    Get executive consultation requests (admin endpoint)
+    """
+    try:
+        query = {}
+        if status:
+            query["status"] = status.value
+            
+        consultations = await db.executive_consultations.find(query).sort("submitted_at", -1).to_list(100)
+        return [ExecutiveConsultation(**consultation) for consultation in consultations]
+    except Exception as e:
+        logger.error(f"Error retrieving consultations: {str(e)}")
+        return []
+
+@api_router.get("/consultation/{consultation_id}", response_model=ExecutiveConsultation)
+async def get_consultation_by_id(consultation_id: str):
+    """
+    Get specific consultation by ID (admin endpoint)
+    """
+    try:
+        consultation = await db.executive_consultations.find_one({"id": consultation_id})
+        if consultation:
+            return ExecutiveConsultation(**consultation)
+        else:
+            raise HTTPException(status_code=404, detail="Consultation not found")
+    except Exception as e:
+        logger.error(f"Error retrieving consultation {consultation_id}: {str(e)}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+# Include the router in the main app
+app.include_router(api_router)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_credentials=True,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+@app.on_event("shutdown")
+async def shutdown_db_client():
+    client.close()
+📄 requirements.txt
+fastapi==0.110.1
+uvicorn==0.25.0
+boto3>=1.34.129
+requests-oauthlib>=2.0.0
+cryptography>=42.0.8
+python-dotenv>=1.0.1
+pymongo==4.5.0
+pydantic>=2.6.4
+email-validator>=2.2.0
+pyjwt>=2.10.1
+passlib>=1.7.4
+tzdata>=2024.2
+motor==3.3.1
+pytest>=8.0.0
+black>=24.1.1
+isort>=5.13.2
+flake8>=7.0.0
+mypy>=1.8.0
+python-jose>=3.3.0
+requests>=2.31.0
+pandas>=2.2.0
+numpy>=1.26.0
+python-multipart>=0.0.9
+jq>=1.6.0
+typer>=0.9.0
